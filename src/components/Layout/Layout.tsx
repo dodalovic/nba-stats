@@ -9,7 +9,7 @@ type Props = {
 function Layout({ children, title }: Props) {
   return (
     <div>
-      <header className="bg-blue-500 max-w-sm rounded overflow-hidden shadow-lg">
+      <header className="bg-blue-500 overflow-hidden shadow-lg">
         <h1>{title}</h1>
         <Navigation />
       </header>
