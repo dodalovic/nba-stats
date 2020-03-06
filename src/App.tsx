@@ -1,9 +1,9 @@
-import React from 'react';
+import React from 'react'
 
-import Home from './views/Home';
+import Standings from './views/Standings'
 
 function App() {
-  return <Home/>;
+  return <Standings />
 }
 
-export default App;
+export default App
