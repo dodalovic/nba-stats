@@ -6,12 +6,12 @@ type Props = {
   path: string
 }
 
-function Standings(p: Props) {
+function LeagueLeaders(p: Props) {
   return (
-    <Layout title="Standings">
-      <div>Standings</div>
+    <Layout title="LeagueLeaders">
+      <div>League leaders</div>
     </Layout>
   )
 }
 
-export default Standings
+export default LeagueLeaders

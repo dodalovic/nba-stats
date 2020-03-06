@@ -1,4 +1,5 @@
 import React from 'react'
+import Navigation from '../Navigation'
 
 type Props = {
   children: JSX.Element
@@ -10,6 +11,7 @@ function Layout({ children, title }: Props) {
     <div>
       <header>
         <h1>{title}</h1>
+        <Navigation />
       </header>
       {children}
     </div>
