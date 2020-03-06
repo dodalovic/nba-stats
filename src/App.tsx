@@ -4,7 +4,7 @@ import { Router } from '@reach/router'
 import Standings from './views/Standings'
 import LeagueLeaders from './views/LeagueLeaders'
 
-import './styles/index.css'
+import './styles/main.css'
 
 function App() {
   return (
