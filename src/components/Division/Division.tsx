@@ -31,7 +31,7 @@ function Division({ name }: Props) {
     <div className="flex-1">
       <h1>{name}</h1>
       <ul>
-        {allTeams.get(name)!!.map(it => (
+        {allTeams.get(name)?.map(it => (
           <li>{it}</li>
         ))}
       </ul>
