@@ -34,7 +34,7 @@ function Division({ name }: Props) {
       <h1 className="rounded shadow uppercase text-center mb-5 bg-indigo-500 text-white">
         {name}
       </h1>
-      <ul className="bg-indigo-200">
+      <ul className="bg-indigo-100 p-5 border border-black-500">
         {allTeams.get(name)?.map(it => (
           <li>{it}</li>
         ))}
