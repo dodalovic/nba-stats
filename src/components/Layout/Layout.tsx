@@ -1,5 +1,6 @@
 import React from 'react'
 import Navigation from '../Navigation'
+import './Layout.css'
 
 type Props = {
   children: JSX.Element
@@ -8,7 +9,7 @@ type Props = {
 
 function Layout({ children, title }: Props) {
   return (
-    <div>
+    <div className="container">
       <header className="bg-blue-500 overflow-hidden shadow-lg">
         <h1>{title}</h1>
         <Navigation />

@@ -1,0 +1,9 @@
+.divisions {
+  display: flex;
+}
+
+.divisions div {
+  align-items: center;
+  width: 33%;
+  justify-content: space-between;
+}
