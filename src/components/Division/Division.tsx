@@ -1,5 +1,7 @@
 import React from 'react'
 
+import './Division.css'
+
 type Props = {
   name: string
 }
@@ -28,11 +30,11 @@ const allTeams = new Map<string, Array<string>>()
 
 function Division({ name }: Props) {
   return (
-    <div className="flex-1">
-      <h1 className="shadow uppercase max-w-xs text-center mb-5 bg-indigo-500 text-white">
+    <div className="division">
+      <h1 className="rounded shadow uppercase text-center mb-5 bg-indigo-500 text-white">
         {name}
       </h1>
-      <ul>
+      <ul className="bg-indigo-200">
         {allTeams.get(name)?.map(it => (
           <li>{it}</li>
         ))}

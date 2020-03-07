@@ -14,7 +14,7 @@ function Standings(p: Props) {
     <Layout title="Standings">
       <div>
         <h1 className="text-indigo-700 text-center p-5">Standings</h1>
-        <div className="flex">
+        <div className="divisions flex">
           <Division name="East" />
           <Division name="West" />
         </div>
