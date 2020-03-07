@@ -29,7 +29,9 @@ const allTeams = new Map<string, Array<string>>()
 function Division({ name }: Props) {
   return (
     <div className="flex-1">
-      <h1>{name}</h1>
+      <h1 className="shadow uppercase max-w-xs text-center mb-5 bg-indigo-500 text-white">
+        {name}
+      </h1>
       <ul>
         {allTeams.get(name)?.map(it => (
           <li>{it}</li>
