@@ -31,10 +31,10 @@ const allTeams = new Map<string, Array<string>>()
 function Division({ name }: Props) {
   return (
     <div className="division">
-      <h1 className="rounded shadow uppercase text-center m-auto mb-5 bg-indigo-500 w-40 text-white">
+      <h1 className="rounded-t-md p-1 tracking-wide shadow uppercase text-center m-auto bg-indigo-600 text-white">
         {name}
       </h1>
-      <ul className="bg-indigo-100 p-5 border border-black-500">
+      <ul className="p-5 border border-black-500">
         {allTeams.get(name)?.map(it => (
           <li>{it}</li>
         ))}
